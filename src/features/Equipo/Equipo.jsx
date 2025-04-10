@@ -95,9 +95,6 @@ export default function Equipo() {
 
     return (
         <>
-            <div>
-                <Navbar />
-            </div>
             <section className='min-h-screen bg-gradient-to-b from-blue-50 to-white py-16 px-4'>
                 <h1 className='text-3xl md:text-4xl font-bold text-center text-blue-700 mb-10 mt-4'>Nuestro equipo</h1>
 
@@ -144,9 +141,7 @@ export default function Equipo() {
                 </div>
             </section>
 
-            <div>
-                <Footer />
-            </div>
+
         </>
     );
 }

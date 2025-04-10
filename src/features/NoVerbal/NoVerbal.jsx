@@ -5,9 +5,6 @@ import Footer from '../Landing/Footer';
 function NoVerbal() {
     return (
         <>
-            <div>
-                <Navbar/>
-            </div>
             <div className='min-h-screen px-6 md:px-16 py-20 bg-gradient-to-b from-white to-gray-100 text-gray-800'>
                 <h1 className='text-4xl font-bold mb-6 text-blue-700'>Comunicación no verbal</h1>
 
@@ -138,9 +135,6 @@ function NoVerbal() {
                         demás y cómo nos mostramos al mundo.
                     </p>
                 </div>
-            </div>
-            <div>
-                <Footer/>
             </div>
         </>
     );

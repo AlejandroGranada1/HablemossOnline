@@ -5,9 +5,6 @@ import Footer from '../Landing/Footer';
 function Funciones() {
     return (
         <>
-            <div>
-                <Navbar />
-            </div>
             <div className='min-h-screen px-6 md:px-16 py-20 bg-gradient-to-b from-white to-gray-100 text-gray-800'>
                 <h1 className='text-4xl font-bold mb-6 text-blue-700'>Funciones del lenguaje</h1>
 
@@ -124,9 +121,6 @@ function Funciones() {
                         ¡Ahora tienes una herramienta más para expresarte como un pro!
                     </p>
                 </div>
-            </div>
-            <div>
-                <Footer />
             </div>
         </>
     );
